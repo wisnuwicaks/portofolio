@@ -1,9 +1,17 @@
-html {
-    scroll-behavior: smooth;
+  html {
+      scroll-behavior: smooth;
+      height: 100%;
+    }
+
+  .tinggi-container{
+    height: 100%;
   }
 
   .border-kuning{
-    border: solid greenyellow 3px;
+    border: solid yellow 3px;
+  }
+  .border-hitam{
+    border: solid black 3px;
   }
 
   .border-merah{
@@ -17,6 +25,11 @@ html {
   .padding-pengalaman{
     padding-left: 70px;
     padding-right: 70px;
+  }
+  .gambar-sekilas{
+    background-image: url(./film.png);
+    /* background-color: hotpink; */
+    background-size: 100% 100% ;
   }
   .gambar1{
     background-image: url(./image-001.jpg);
@@ -57,7 +70,9 @@ html {
   }
 
   #home-page {
-    height: 750px;
+    color: white;
+    /* height: 770px; */
+
     border: black solid 3px;
     background-image: url('https://forums.unrealengine.com/filedata/fetch?id=1155855') ;
     background-size: 100% 100%;
@@ -66,28 +81,33 @@ html {
   #about {
     
     padding-top: 55px;
-    height: 800px;
+    /* height: 850px; */
     border: black solid 3px;
-    background-color: red;
+    background-image: url(./news.jpg);
+    background-size: 100% 100%;
 
   }
   
   #biodata {
     padding-top: 55px;
-    height: 800px;
+    /* height: 850px; */
     background-color: yellow;
     border: black solid 3px;
 
   }
   #pengalaman {
     padding-top: 55px ;
-    height: 670px;
+    /* height: 670px; */
     border: black solid 3px;
     background-color: rgb(67, 222, 250);
   
   }
 
-  .design-navbar{
-      background-color: rgb(0,0,0);
-      color: white;
+  .huruf-pertama::first-letter{
+      font-size: 300%;
+      color: white
+      
+  }
+  .text-color{
+    color: white;
   }
