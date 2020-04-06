@@ -72,6 +72,15 @@
     transform: scale(1.3);
   }
 
+  
+  .huruf-pertama::first-letter{
+    font-size: 300%;
+    color: white    
+  }
+  .text-color{
+    color: white;
+  }
+
   #home-page {
     color: white;
     /* height: 770px; */
@@ -88,7 +97,7 @@
     border: black solid 3px;
     background-image: url(./news.jpg);
     background-size: 100% 100%;
-    overflow-y: scroll;
+    overflow-y: auto;
   }
   
   #biodata {
@@ -96,7 +105,7 @@
     /* height: 850px; */
     background-color: yellow;
     border: black solid 3px;
-    overflow-y: scroll;
+    overflow-y: auto;
   }
   #pengalaman {
     padding-top: 55px ;
@@ -104,13 +113,4 @@
     border: black solid 3px;
     background-color: rgb(67, 222, 250);
     overflow-y: scroll;
-  }
-
-  .huruf-pertama::first-letter{
-      font-size: 300%;
-      color: white
-      
-  }
-  .text-color{
-    color: white;
   }
