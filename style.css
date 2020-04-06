@@ -7,6 +7,9 @@
     height: 100%;
   }
 
+  .tinggi-gambar{
+    height: 270px;
+  }
   .border-kuning{
     border: solid yellow 3px;
   }
