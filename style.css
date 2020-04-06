@@ -31,8 +31,9 @@
   }
   .gambar-sekilas{
     background-image: url(./film.png);
-    /* background-color: hotpink; */
-    background-size: 100% 100% ;
+    background-position: center;
+    background-size: 380px 300px;
+
   }
   .gambar1{
     background-image: url(./image-001.jpg);
@@ -74,8 +75,13 @@
 
   
   .huruf-pertama::first-letter{
-    font-size: 300%;
-    color: white    
+    /* font-size: 300%; */
+    color: white  ;
+    float: left;
+    height: 0.7em;
+    padding: 0 0.065em 0 0;
+    font-size: 5em;
+    line-height: 0.85em;
   }
   .text-color{
     color: white;
