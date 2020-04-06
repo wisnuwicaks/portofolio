@@ -30,8 +30,12 @@
     padding-right: 70px;
   }
   .gambar-sekilas{
-    background-image: url(./film.png);
+    background-image: url(./film.png) ;
     background-position: center;
+    /* height: 250px;
+    width: 600px; */
+    padding-right: 100px;
+    /* grid-template-columns: 30px 200px auto 100px; */
     background-size: 380px 300px;
 
   }
