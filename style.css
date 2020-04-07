@@ -22,7 +22,7 @@
   }
 
   .tinggi-baris{
-    height: 250px;
+    height: 230px;
   }
 
   .padding-pengalaman{
@@ -132,4 +132,9 @@
 
   .lebih{
     overflow: hidden;
+  }
+
+  table{
+    opacity: 80%;
+
   }
